@@ -1,0 +1,21 @@
+.control-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-authorization {
+    background-color: rgba(121, 184, 242, 0.2);
+    border-radius: 10px;
+}
+
+.form-center {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.btn-block {
+    text-align: center;
+    padding: 15px 0;
+}
+.btn {
+    width: 200px;
+}

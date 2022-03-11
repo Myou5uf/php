@@ -1,5 +1,15 @@
 <?php
 // error_reporting(0);
+var_dump($_SESSION);
+if (isset($_SESSION['status']) && $_SESSION['status'] == true) {
+    // header("Location: ../user.php");
+    echo '<p>Пройдена</p>';
+    exit;
+} else {
+    // header("Location: index.php");
+    echo '<p>Не пройдена</p>';
+    exit;
+}
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -58,7 +68,6 @@
         <?php require_once('inc/footer.php'); ?>
     </div>
     <?php
-    session_start();
     if (isset($_POST['exit'])) {
         $_SESSION = array();
         header('Location: index.php');

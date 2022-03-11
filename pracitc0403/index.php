@@ -1,5 +1,6 @@
 <?php
 // error_reporting(0);
+//session_start();
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -20,9 +21,9 @@
     <?php
     const log = 'yousuf';
     const pass = '12345';
-    session_start();
+    // добавить в отдельный файл
     if (isset($_SESSION['status']) && $_SESSION['status'] == true) {
-        header("Location: ../user.php");
+        header("Location: user.php");
         exit;
     } else {
         echo <<<HTML
@@ -41,8 +42,6 @@
                 <button type="submit" class="btn btn-primary">Войти</button>
             </div>
         </form>
-
-        
     </div>
 HTML;
     }

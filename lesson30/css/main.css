@@ -1,0 +1,12 @@
+.form-authorization {
+    background-color: rgba(121, 184, 242, 0.2);
+    border-radius: 10px;
+}
+
+.btn-block {
+    text-align: center;
+    padding: 15px 0;
+}
+.btn {
+    width: 200px;
+}

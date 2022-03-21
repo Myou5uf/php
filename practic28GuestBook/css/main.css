@@ -1,0 +1,20 @@
+.form-authorization {
+    background-color: rgba(121, 184, 242, 0.2);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.btn-block {
+    text-align: center;
+    padding: 15px 0;
+}
+.btn {
+    width: 200px;
+}
+
+.message {
+    padding: 20px 8px;
+    border: 1px solid rgba(121, 184, 242, 0.7);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
